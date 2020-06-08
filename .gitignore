@@ -50,3 +50,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# For myself
+build/01.VS2017/VS2017_Prj
+build/02.MinGW/Debug
+build/02.MinGW/Release
