@@ -1,0 +1,24 @@
+EXPORTS
+ LUDS_SetLinDriver @1
+ LUDS_SetMsgHook @2
+ LUDS_Init @3
+ LUDS_Uninit @4
+ LUDS_WaitForDiagRequestSent @5
+ LUDS_WaitForDiagResponse @6
+ LUDS_WaitForService @7
+ LUDS_DiagnosticSessionControl @8
+ LUDS_EcuReset @9
+ LUDS_SecurityAccess @10
+ LUDS_CommunicationControl @11
+ LUDS_TestPresent @12
+ LUDS_ReadDataByIdentifier @13
+ LUDS_WriteDataByIdentifier @14
+ LUDS_ClearDiagnosticInformation @15
+ LUDS_ReadDTCInformation @16
+ LUDS_InputOutputControlByIdentifier @17
+ LUDS_RoutineControl @18
+ LUDS_RequestDownload @19
+ LUDS_TransferData @20
+ LUDS_RequestTransferExit @21
+ LUDS_SetParam @22
+ LUDS_GetParam @23
