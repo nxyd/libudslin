@@ -102,7 +102,7 @@ LUdsResult __stdcall LUDS_WaitForDiagResponse(
 {
     DWORD start_time = GetTickCount();
     BOOL responsed = FALSE;
-    WORD p2_time = timing_p2;
+    DWORD p2_time = timing_p2;
 
     while (1)
     {

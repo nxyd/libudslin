@@ -1,10 +1,10 @@
 #include "LinDrv.h"
 
-PF_LinDrv_Init lindrv_init = NULL;
-PF_LinDrv_Uninit lindrv_uninit = NULL;
-PF_LinDrv_Write lindrv_write = NULL;
-PF_LinDrv_Read lindrv_read = NULL;
-PF_LinDrv_SetSchedule lindrv_set_schedule = NULL;
+static PF_LinDrv_Init lindrv_init = NULL;
+static PF_LinDrv_Uninit lindrv_uninit = NULL;
+static PF_LinDrv_Write lindrv_write = NULL;
+static PF_LinDrv_Read lindrv_read = NULL;
+static PF_LinDrv_SetSchedule lindrv_set_schedule = NULL;
 
 LinDrvResult LinDrv_Init(void)
 {

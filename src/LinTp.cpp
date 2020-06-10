@@ -227,7 +227,7 @@ static void RxIndication(LinTpMsg *msg, LinMsg *ldmsg)
             rx_buffer.Put(imsg);
         }
 
-        WORD data_len = ((DWORD)(ldmsg->data[1] & 0x0F) << 8) | ldmsg->data[2];
+        WORD data_len = (WORD)(((WORD)(ldmsg->data[1] & 0x0F) << 8) | ldmsg->data[2]);
         if (data_len < 7)
         {
             LinDrv_SetSchedule(LINDRV_SCHED_TYPE_STOP);
